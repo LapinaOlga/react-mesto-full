@@ -1,0 +1,24 @@
+.popup__item {
+    width: 100%;
+    max-width: 358px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 0 13px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.popup__item:focus-visible {
+    outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .popup__item {
+        max-width: 238px;
+    }
+}
+

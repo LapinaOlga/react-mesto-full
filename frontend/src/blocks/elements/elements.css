@@ -1,0 +1,19 @@
+.elements {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    row-gap: 20px;
+    column-gap: 17px;
+    grid-auto-flow: dense;
+    padding-bottom: 67px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .elements {
+        padding-bottom: 48px;
+        column-gap: 0;
+        justify-items: center;
+    }
+}
+

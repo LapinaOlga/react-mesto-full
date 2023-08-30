@@ -1,0 +1,7 @@
+.header__right {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}

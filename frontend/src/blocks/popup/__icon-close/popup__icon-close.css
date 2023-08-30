@@ -1,0 +1,23 @@
+.popup__icon-close {
+    background: black;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    transition: opacity 200ms ease-in-out;
+}
+
+.popup__icon-close:hover {
+    opacity: 0.6;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .popup__icon-close {
+        top: -32px;
+        right: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.profile__area {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .profile__area {
+        column-gap: 10px;
+        padding-top: 22px;
+        max-width: 282px;
+        transform: translateX(13px);
+    }
+}

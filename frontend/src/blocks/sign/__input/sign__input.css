@@ -1,0 +1,21 @@
+input.sign__input {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    width: 100%;
+    display: block;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 13px;
+}
+
+.sign__input::placeholder {
+    color: #CCC;
+}
+.sign__input:focus {
+    outline: none;
+}

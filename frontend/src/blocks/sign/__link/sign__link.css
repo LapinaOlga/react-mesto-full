@@ -1,0 +1,12 @@
+a.sign__link {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+a.sign__link:hover {
+    color: rgb(217, 217, 217);
+    cursor: pointer;
+}
