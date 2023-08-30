@@ -3,7 +3,7 @@ const ProtectedRouteError = require('../errors/ProtectedRouteError');
 const User = require('../models/user');
 
 module.exports = async (req, res, next) => {
-  const header = req.headers.authorization || ''
+  const header = req.headers.authorization || '';
   const matches = header.match(/^Bearer (.+)$/i);
 
   if (!matches) {

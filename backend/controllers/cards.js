@@ -8,7 +8,7 @@ const ForbiddenError = require('../errors/ForbiddenError');
 
 module.exports.getAllCards = async (req, res, next) => {
   try {
-    const cards = await Card.find({}).sort({createdAt: -1}).limit(30).exec();
+    const cards = await Card.find({}).sort({ createdAt: -1 }).limit(30).exec();
     const result = await Promise.all(
       cards.map((card) => convertCard(card)),
     );
