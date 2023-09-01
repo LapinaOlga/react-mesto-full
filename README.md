@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP 95.217.8.198
 
-Frontend https://...
+Frontend https://mesto.lapaliv.com
 
-Backend https://...
+Backend https://lapaliv.com
