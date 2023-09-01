@@ -143,9 +143,8 @@ class Api {
 }
 
 export default new Api({
-  baseUrl: process.env.REACT_APP_API_URL,
+  baseUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000',
   headers: {
-    // Authorization: '03bede17-6085-4ace-b801-04f52b01265d',
     'Content-Type': 'application/json',
   },
 });

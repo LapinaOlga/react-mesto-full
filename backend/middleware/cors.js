@@ -3,7 +3,7 @@ const allowedCors = (process.env.ALLOWED_ORIGINS || '').split(',');
 module.exports = (req, res, next) => {
   const { origin } = req.headers;
 
-  if (allowedCors.includes(origin)) {
+  if (process.env.NODE_ENV !== 'production' || allowedCors.includes(origin)) {
     res.header('Access-Control-Allow-Origin', origin);
     res.header('Access-Control-Allow-Origin', '*');
 
